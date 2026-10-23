@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="pt-MZ">
+  <head>
+    <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Interface de teste virtual de armações da Óptica Excelente E.I.">
+    <title>Teste virtual | Óptica Excelente E.I.</title>
+    <link rel="preconnect" href="https://images.unsplash.com">
+    <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+    <link rel="preconnect" href="https://storage.googleapis.com" crossorigin>
+    <link rel="stylesheet" href="../../css/variables.css"><link rel="stylesheet" href="../../css/global.css"><link rel="stylesheet" href="../../css/components.css"><link rel="stylesheet" href="../../css/produtos.css"><link rel="stylesheet" href="../../css/responsive.css">
+  </head>
+  <body class="virtual-page">
+    <a class="skip-link" href="#conteudo">Saltar para o conteúdo</a><header data-site-header></header>
+    <main id="conteudo">
+      <section class="page-hero virtual-hero"><div class="container"><div><p class="eyebrow">Experiência virtual</p><h1 class="page-title">Experimente uma nova perspectiva.</h1></div><p class="page-kicker">Autorize a câmara apenas quando estiver pronto. O vídeo é mostrado no seu dispositivo e não é guardado.</p></div></section>
+      <section class="section-sm"><div class="container virtual-workspace">
+        <div class="camera-stage" data-camera-stage>
+          <div class="camera-empty" data-camera-empty><span class="camera-empty-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M8 3H5a2 2 0 0 0-2 2v3M16 3h3a2 2 0 0 1 2 2v3M8 21H5a2 2 0 0 1-2-2v-3M16 21h3a2 2 0 0 0 2-2v-3"/><circle cx="9" cy="10" r="1"/><circle cx="15" cy="10" r="1"/><path d="M8.5 15c1.9 1.35 5.1 1.35 7 0"/></svg></span><h2>A câmara está desligada.</h2><p>Posicione-se num local iluminado e carregue em “Iniciar câmara”.</p></div>
+          <video data-camera-video autoplay muted playsinline hidden></video>
+          <div class="frame-overlay" data-frame-overlay-wrap aria-hidden="true">
+            <span class="frame-arm frame-arm-left"></span><span class="frame-arm frame-arm-right"></span>
+            <img data-frame-overlay alt="">
+          </div>
+          <div class="face-status" data-face-status role="status" aria-live="polite" hidden><span class="face-status-dot" aria-hidden="true"></span><span data-face-status-text>A preparar detecção facial…</span></div>
+        </div>
+        <aside class="virtual-controls"><div class="virtual-product-card"><img data-virtual-product-image alt="Armação seleccionada"><h2 data-virtual-product-name>Seleccione uma armação</h2><div class="form-field"><label for="virtual-product">Trocar armação</label><select id="virtual-product" data-virtual-product-select></select></div></div><div class="control-buttons"><button class="btn btn-primary" type="button" data-start-camera>Iniciar câmara</button><button class="btn btn-secondary" type="button" data-stop-camera disabled>Parar câmara</button><a class="btn btn-secondary" data-back-product>Regressar ao produto</a></div><div class="privacy-card"><h3>A sua privacidade</h3><p>A imagem permanece no seu dispositivo. A detecção analisa pontos do rosto em tempo real no navegador e não envia nem guarda fotografias ou vídeo.</p></div></aside>
+      </div></section>
+    </main>
+    <footer data-site-footer></footer><script type="module" src="../../js/virtual.js"></script>
+  </body>
+</html>

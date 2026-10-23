@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="pt-MZ">
+  <head>
+    <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Explore o catálogo de armações da Óptica Excelente E.I.">
+    <title>Óculos e armações | Óptica Excelente E.I.</title>
+    <link rel="stylesheet" href="../../css/variables.css"><link rel="stylesheet" href="../../css/global.css"><link rel="stylesheet" href="../../css/components.css"><link rel="stylesheet" href="../../css/produtos.css"><link rel="stylesheet" href="../../css/responsive.css">
+  </head>
+  <body class="catalog-page">
+    <a class="skip-link" href="#conteudo">Saltar para o conteúdo</a><header data-site-header></header>
+    <main id="conteudo">
+      <section class="page-hero catalog-hero">
+        <div class="container catalog-hero-content">
+          <div><p class="eyebrow">Catálogo</p><h1 class="page-title">Encontre a sua próxima armação.</h1></div>
+          <p class="page-kicker">Pesquise, filtre e compare uma selecção pensada para diferentes rostos, rotinas e estilos.</p>
+        </div>
+      </section>
+      <section class="section-sm catalog-section">
+        <div class="catalog-container catalog-layout">
+          <aside class="catalog-filters" id="catalog-filters" aria-label="Filtros do catálogo">
+            <div class="filter-group category-filter-group">
+              <h2>Categoria</h2>
+              <div class="category-filter-options" data-category-filters></div>
+            </div>
+            <div class="filter-quick-options">
+              <label class="filter-option quick-filter"><input type="checkbox" id="filter-available" checked><span>Apenas disponíveis</span></label>
+              <label class="filter-option quick-filter"><input type="checkbox" id="filter-promotion"><span>Em promoção</span></label>
+              <button class="clear-filters" type="button" data-clear-filters><svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 6h18M8 6V4h8v2M19 6l-1 15H6L5 6M10 11v6M14 11v6"/></svg><span>Limpar filtros</span></button>
+            </div>
+          </aside>
+          <div class="catalog-main">
+            <div class="catalog-toolbar">
+              <div class="form-field search-field"><label for="catalog-search">Pesquisar armações</label><input id="catalog-search" type="search" placeholder="Nome, estilo ou categoria" autocomplete="off"></div>
+              <div class="form-field"><label for="catalog-sort">Ordenar por</label><select id="catalog-sort"><option value="recent">Mais recentes</option><option value="name">Nome A–Z</option><option value="price-asc">Preço mais baixo</option><option value="price-desc">Preço mais alto</option></select></div>
+            </div>
+            <div class="result-summary"><span data-result-count aria-live="polite"></span></div>
+            <div class="product-grid" data-catalog-grid></div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer data-site-footer></footer><script type="module" src="../../js/produtos.js"></script>
+  </body>
+</html>

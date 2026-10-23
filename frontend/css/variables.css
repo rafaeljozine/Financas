@@ -1,0 +1,30 @@
+:root {
+  --azul-principal: #073273;
+  --azul-escuro: #05245a;
+  --azul-noite: #031a42;
+  --azul-nevoa: #eaf1fb;
+  --vermelho-principal: #e00000;
+  --vermelho-escuro: #b80000;
+  --branco: #ffffff;
+  --cinza-claro: #f5f7fa;
+  --cinza-medio: #64748b;
+  --grafite: #172033;
+  --areia: #f2ede4;
+  --marfim: #f8f8f6;
+  --linha: #dfe4eb;
+  --verde: #157347;
+  --verde-whatsapp: #075e54;
+  --verde-whatsapp-escuro: #054940;
+  --aviso: #9a6700;
+  --erro: #b42318;
+
+  --fonte-corpo: "Manrope", "Segoe UI", sans-serif;
+  --fonte-editorial: "Cormorant Garamond", Georgia, serif;
+  --largura-conteudo: 1240px;
+  --raio-sm: 8px;
+  --raio-md: 16px;
+  --raio-lg: 28px;
+  --sombra-suave: 0 18px 50px rgb(5 36 90 / 0.09);
+  --sombra-elevada: 0 24px 70px rgb(3 26 66 / 0.16);
+  --transicao: 180ms ease;
+}

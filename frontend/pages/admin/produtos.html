@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="pt-MZ">
+  <head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="robots" content="noindex,nofollow"><title>Produtos | Administração</title><link rel="stylesheet" href="../../css/variables.css"><link rel="stylesheet" href="../../css/global.css"><link rel="stylesheet" href="../../css/components.css"><link rel="stylesheet" href="../../css/admin.css"></head>
+  <body class="admin-page">
+    <div class="admin-shell">
+      <aside data-admin-sidebar></aside>
+      <div class="admin-main">
+        <header data-admin-topbar></header>
+        <main class="admin-content">
+          <div class="admin-heading"><div>
+            <h2>Produtos</h2>
+            <p>Adicione armações e mantenha imagens, preços e disponibilidade actualizados.</p>
+          </div>
+          <button class="btn btn-primary" type="button" data-add-product>Adicionar produto</button>
+        </div>
+        <div class="admin-toolbar">
+          <div class="toolbar-filters">
+            <div class="form-field">
+              <label for="admin-product-search">Pesquisar</label>
+              <input id="admin-product-search" type="search" placeholder="Nome do produto">
+            </div><div class="form-field"><label for="admin-product-category">Categoria</label>
+              <select id="admin-product-category">
+                <option value="">Todas</option>
+              </select>
+            </div>
+          </div>
+        </div>
+        <section class="admin-panel">
+          <div class="table-wrap">
+            <table class="admin-table">
+              <thead>
+                <tr>
+                  <th>Produto</th>
+                  <th>Categoria</th>
+                  <th>Preço</th>
+                  <th>Disponibilidade</th>
+                  <th>Destaque</th>
+                  <th>Acções</th>
+                </tr></thead>
+                <tbody data-products-table>
+                </tbody></table>
+              </div>
+              <div class="admin-empty" data-products-empty hidden>Nenhum produto encontrado.</div>
+            </section>
+            </main>
+            </div>
+            </div>
+            <script type="module" src="../../js/admin/produtos.js">
+
+            </script>
+            </body>
+</html>
